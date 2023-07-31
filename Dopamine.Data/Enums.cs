@@ -28,7 +28,8 @@
         ByFileName = 3,
         ByRating = 4,
         ReverseAlphabetical = 5,
-        None = 6
+        None = 6,
+        ByModification = 7
     }
 
     public enum AlbumOrder
@@ -38,7 +39,8 @@
         ByDateCreated = 3,
         ByAlbumArtist = 4,
         ByYearDescending = 5,
-        ByYearAscending = 6
+        ByYearAscending = 6,
+        ByModification = 7
     }
 
     public enum RemoveTracksResult
